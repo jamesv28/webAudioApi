@@ -5,9 +5,29 @@
     <title>Web Audio API | Beginning</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" href="style/font-awesome.min.css">
-    <link rel="stylesheet" href="style/main.scss">
+    <link rel="stylesheet" href="style/main.css">
 </head>
 <body>
-
+<header class="row">
+    <div class="container">
+        <h1 class="text-center">Drum Kit - Web Audio </h1>
+    </div>
+</header>
+<div class="row" id="drumSet">
+    <div class="container">
+        <div id="snare" class="col-sm-2 col-md-2 col-md-offset-3 col-sm-offset-3 drumButton">
+            <h2 class="text-center">Snare</h2>
+            <img class="drumIcons" src="img/snare.png" alt="snare drum icon" longdesc="click within this div to create a snare drum sound">
+        </div>
+        <div id="cymbal" class="col-md-2 col-sm-2 drumButton">
+            <h2 class="text-center">Cymbal</h2>
+            <img src="img/cymbal.png" class="drumIcons" alt="cymbal icon">
+        </div>
+        <div id="tom" class="col-md-2 col-sm-2 drumButton">
+            <h2 class="text-center">Tom</h2>
+            <img src="img/tom.png" alt="toms drums icon" class="drumIcons">
+        </div>
+    </div>
+</div>
 </body>
 </html>

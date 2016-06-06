@@ -1,0 +1,27 @@
+body {
+  background-color: #000000;
+  color: #ffffff; }
+
+.drumIcons {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+  display: block; }
+
+.drumButton {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px; }
+
+#snare {
+  background: #AB82FF;
+  color: #ffffff; }
+
+#cymbal {
+  background: #894fff;
+  color: #ffffff; }
+
+#tom {
+  background: #3b00b5; }
+
+/*# sourceMappingURL=main.css.map */
