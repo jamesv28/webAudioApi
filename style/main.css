@@ -11,7 +11,8 @@ body {
 .drumButton {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
-  border-radius: 5px; }
+  border-radius: 5px;
+  padding-bottom: 20px; }
 
 #snare {
   background: #AB82FF;
@@ -20,6 +21,9 @@ body {
 #cymbal {
   background: #894fff;
   color: #ffffff; }
+
+#bassDrum {
+  background: #661cff; }
 
 #tom {
   background: #3b00b5; }
